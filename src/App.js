@@ -3,7 +3,7 @@ import { ToDoSearch } from './ToDoSearch';
 import { ToDoList } from './ToDoList';
 import { ToDoItem } from './ToDoItem';
 import { ToDoButton } from './ToDoButton';
-import './App.css';
+import './index.css';
 import React from 'react';
 
 const defaultToDo = [

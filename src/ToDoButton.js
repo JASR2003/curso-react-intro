@@ -1,6 +1,8 @@
+import './ToDoButton.css';
+
 function ToDoButton(){
   return(
-    <button>Añadir tarea a la lista</button>
+    <button className="CreateToDoButton">+</button>
   );
 }
 

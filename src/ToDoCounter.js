@@ -1,6 +1,8 @@
+import './ToDoCounter.css';
+
 function ToDoCounter({ total , completed}){
   return(
-    <h1>Has completado {completed} de {total} To Do</h1>
+    <h1 className="title">Has completado <b>{completed}</b> de <b>{total}</b> To Do</h1>
   );
 }
 
