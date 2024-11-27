@@ -1,3 +1,5 @@
+import './ToDoItem.css';
+
 function ToDoItem(props) {
   return (
     <li className="ToDoItem">
@@ -11,7 +13,7 @@ function ToDoItem(props) {
         X
       </span>
     </li>
-  )
+  );
 }
 
 export { ToDoItem };
